@@ -1,0 +1,9 @@
+body {
+    display: flex;
+}
+
+.encabezado {
+    background-color: rgb(207, 58, 31);
+    border-style: solid;
+    border-color: black;
+}
