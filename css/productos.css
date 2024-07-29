@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    min-height: 2500px;
+    min-height: 3400px;
     background-color: rgba(214, 204, 204, 0.5);
     align-content: space-between;
     justify-content: center;
@@ -20,21 +20,19 @@ header {
     justify-content: space-between;
 }
 
-section {
+.productosH2 {
+    margin: 0;
     width: 100%;
-    height: 800px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    height: 50px;
+    text-align: center;
 }
 
-.divHistoriaImagenes {
+section {
     width: 100%;
-    height: 1000px;
+    height: 500px;
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
-    align-items: center;
+    justify-content: flex-end;
 }
 
 footer {
@@ -107,36 +105,15 @@ nav ul li {
     text-decoration: none;
 }
 
-.cartelOferta {
-    width: 15%;
-    height: 30%;
-    display: flex;
-    align-items: flex-end;
-}
-
-.cartelOferta p {
-    color: white;
-    background-color: rgb(103, 130, 187);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: oblique;
-    -webkit-text-stroke: 2px;
-    -webkit-text-stroke-color: black;
-    font-size: 45px;
-    width: 90%;
-    height: 60%;
-    text-align: center;
-    border-radius: 50px;
-    border: solid 2px;
-    border-color: rgb(61, 60, 60);
-    display: flex;
-    align-items: center;
-    box-shadow: 2px 2px 2px 2px gray;
+section>h3 {
+    width: 100%;
+    height: 10%;
     margin: 0;
 }
 
-.ofertas {
+.divProductos {
     width: 100%;
-    height: 65%;
+    height: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -149,17 +126,19 @@ nav ul li {
     margin: 0;
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px gray;
+    display: flex;
+    flex-direction: column;
 }
 
-.card img {
+.card>img {
     object-fit: contain;
     width: 100%;
     height: 50%;
 }
 
 .card>div {
-   width: 100%;
-   height: 45%;
+    width: 100%;
+   height: 48%;
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -169,30 +148,14 @@ nav ul li {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 50%;
-}
-
-.divComprar {
-    display: flex;
-    width: 100%;
-    height: 50%;
-    align-items: flex-start;
-    justify-content: center;
+    height: 35%;
 }
 
 .divPrecio>div {
     width: 100%;
-    height: 40%;
+    height: 60%;
     display: flex;
     justify-content: center;
-}
-
-.divComprar>h2 {
-    display: flex;
-    width: 50%; 
-    height: 50%;   
-    margin: 0;
-    padding: 0;
 }
 
 .simboloPrecio {
@@ -216,19 +179,6 @@ nav ul li {
     padding: 0;
 }
 
-.precioTachado {
-    text-decoration: line-through;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    font-family: Arial, Helvetica, sans-serif;
-    color: gray;
-    height: 30%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 .nombreProducto {
     display: flex;
     justify-content: center;
@@ -240,66 +190,8 @@ nav ul li {
     padding: 0;
 }
 
-.comprar {
+.divComprar {
     width: 100%;
-    height: 100%;
+    height: 65%; 
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: white;
-    background-color: brown;
-    border-radius: 5px;
-    border: 1px solid;
-    border-color: gray;
-}
-
-.comprar:hover {
-    border: 1px solid;
-    border-color: black;
-}
-
-.historia {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(103, 130, 187);
-    width: 50%;
-    height: 40%;
-    box-shadow: 2px 2px 2px 2px gray;
-    border-radius: 10px;
-    border: 1px rgb(6, 2, 63) solid;
-}
-
-.historia>div {
-    width: 90%;
-    height: 90%;
-    background-color: rgb(240, 234, 234);
-    border-radius: 5px;
-}
-
-.imagenes {
-    width: 100%;
-    height: 40%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.imagenes>div {
-    width: 25%;
-    height: 90%;
-    background-color: white;
-    border: 1px solid rgb(104, 103, 103);
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px 2px gray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.imagenes>div>img {
-    object-fit: contain;
-    width: 95%;
-    height: 100%;
 }
